@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="QalafeNews.Site" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Sports.master.cs" Inherits="QalafeNews.Views.Home.Sports" %>
 
 <!DOCTYPE html>
 
@@ -12,7 +12,6 @@
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-				<h1>Qalafe News</h1>
             </asp:ContentPlaceHolder>
         </div>
     </form>
