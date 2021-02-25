@@ -1,12 +1,64 @@
-.fade-enter-active, .fade-leave-active {
-  transition-property: opacity;
-  transition-duration: .25s;
+/*
+font-family: 'Cormorant', serif;
+font-family: 'Fauna One', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Bellota', cursive;
+*/
+
+body
+{
+	font-family: 'Cormorant', serif;
 }
 
-.fade-enter-active {
-  transition-delay: .25s;
+h1, h2, h3
+{
+	font-family: 'Bellota', cursive;
 }
 
-.fade-enter, .fade-leave-active {
-  opacity: 0
+.nav-bar
+{
+	padding: 10px;
+	background-color: blue;
+}
+
+.nav-item
+{
+	padding: 10px;
+	color: white;
+}
+
+.flex-container
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.flex-item
+{
+	background-color: #e9967a;
+	padding: 10px 10px;
+	margin: 10px 0px;
+}
+
+/*
+	pseudi-class
+ */
+ a:hover
+{
+	color: yellow
+}
+
+a:focus
+{
+	color:red;
+}
+
+a:active
+{
+	color: orange;
 }

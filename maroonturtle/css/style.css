@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", Arial, sans-serif;
-  background-image: url("../images/IMG_1650.JPG");
+  background-image: url("../images/IMG_1650.JPG") no-repeat center center fixed;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;

@@ -1,0 +1,75 @@
+#h1_logo
+{
+	font-family: 'Arizonia';
+	font-size: 55px;
+	font-weight: normal;
+	color: #d4800a;
+	margin: 20px 20px 0px;
+	background-color: #faf1ec;
+}
+.div_pageMain
+{
+	background-color:#faf1ec ;
+	padding:10px;
+	width: 95%;
+	border:1px solid black;
+	margin: 0 auto;
+	max-width: 85%;
+}
+body
+{
+	background-color: #f2d6b8;
+	/*background-color: #faf1ec;*/
+}
+.div_pageContainer
+{
+	background-color: #faf1ec;
+	padding:10px;
+	width: 95%;
+	border:1px solid black;
+	margin: 0 auto;
+	max-width: 85%;
+}
+.nav-bar
+{
+	background-color: #d4800a;
+	padding: 2px;
+	margin: 10px 20px;
+}
+
+.nav-item
+{
+	padding: 0px 25px;
+	letter-spacing: 1px;
+	font-family: 'Agency FB', sans-serif;
+	font-size: 35px;
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+	border-right: 0.5px solid white;
+}
+
+.div_storyContainer
+{
+	margin: 10px 20px;
+	background-color: grey;
+	border: 1px solid black;
+}
+
+.div_mainStory
+{
+	background-color: #d4800a;
+	color: white;
+	padding: 20px;
+	width: 35%;
+	height: 100%;
+	display: inline-block;
+	margin: 15px;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
