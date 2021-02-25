@@ -1,7 +1,7 @@
 
 new Vue({
-	el:'#name'
+	el:'#name',
 	data: {
-		show: true;
+		show: true
 	}
 });
