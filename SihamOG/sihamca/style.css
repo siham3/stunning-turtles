@@ -1,0 +1,93 @@
+body
+{
+    position: absolute;
+    background: #433145;
+    box-sizing: border-box;
+
+}
+ #name
+{
+    position: absolute;
+    width: 1543px;
+    height: 862px;
+    
+    font-family: Cormorant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 600px;
+    line-height: 340px;
+   
+    
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'liga' off;
+    
+    color: #2C0E00;
+} 
+
+/* about */
+#about{
+position: absolute;
+width: 218px;
+height: 127px;
+left: 818px;
+top: 142px;
+
+font-family: Cormorant;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 340px;
+/* or 354% */
+
+display: flex;
+align-items: center;
+
+color: #FFB891;
+}
+
+
+/* projects */
+
+#projects{
+position: absolute;
+width: 377px;
+height: 127px;
+left: 1124px;
+top: 142px;
+
+font-family: Cormorant;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 340px;
+/* or 354% */
+
+display: flex;
+align-items: center;
+
+color: #B08484;
+}
+
+
+/* art */
+#art{
+
+position: absolute;
+width: 218px;
+height: 127px;
+left: 1530px;
+top: 142px;
+
+font-family: Cormorant;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 340px;
+/* or 354% */
+
+display: flex;
+align-items: center;
+
+color: #B08484;
+}
