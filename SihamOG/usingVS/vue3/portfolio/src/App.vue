@@ -1,12 +1,6 @@
 <template>
-  <!-- <SihamSalah msg="Siham Salah"/> -->
-  <div>
-    <div class="Siham">
-      Siham
-    </div>
-     <div class="Salah">
-       Salah
-    </div>
+  <div class="page">
+    <SihamSalah msg="Siham Salah"/> 
   </div>
 </template>
 
@@ -23,5 +17,10 @@ export default defineComponent({
 </script>
 
 <style>
-
-</style>
+body {
+  background-image: url("assets/1Isha_city.png");
+  width: 1740px;
+  height: 1080px;
+  flex-shrink: 0;
+}
+  </style>
