@@ -11,6 +11,26 @@ export default defineComponent({
     msg: String,
   },
 });
+
+import type { PropType } from "vue";
+import { FEATURE_TILE_TYPE } from "./types";
+import type { FeatureTileProps } from "./types";
+
+// const props = defineProps({
+// 	featureTileList: {
+// 		type: Object as PropType<FeatureTileProps>,
+// 		required: true,
+// 	},
+// 	tileType: {
+// 		type: String as PropType<FEATURE_TILE_TYPE>,
+// 		default: FEATURE_TILE_TYPE.FEATURE_SERVICE,
+// 	},
+// 	arrowIcon: {
+// 		type: String,
+// 		required: false,
+// 	},
+// });
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
