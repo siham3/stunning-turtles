@@ -2,20 +2,15 @@
   <main class="main-container">
     <div class="content-wrapper">
       <div class="columns-container">
-        <section class="left-column"></section>
-        <section class="right-column">
+        <section class="left-column">
+            <iframe id="vp1m7pLd" title="Video Player" width="432" height="243" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1713045248&f=m7pLdVkuefpFwIC6FXRflw&d=0&m=p&r=360p+720p&volume=100&start_res=720p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=" allowfullscreen></iframe>
+        </section>
+        <!-- <section class="right-column">
           <article class="article-container">
             <div class="article-content">
               <div class="article-columns">
                 <div class="article-left-column">
                   <p class="article-text">
-                    Secretary of State Antony J. Blinken on Friday canceled a
-                    weekend trip to Beijing after a
-                    <span class="highlighted-text">Chinese spy balloon</span>
-                    was sighted above the Rocky Mountain state of Montana,
-                    igniting a frenzy of media coverage and political commentary
-                    over a machine that the Pentagon said posed no threat to the
-                    United States.
                   </p>
                 </div>
                 <div class="article-right-column"></div>
@@ -24,18 +19,16 @@
             <div class="media-container">
               <div class="media-content">
                 <h2 class="media-title">
-                  More Airports to Use Greener 'Glide' Approach to Landing
+                 
                 </h2>
                 <div class="media-meta"></div>
                 <p class="media-description">
-                  The Stopping Home Office Work's Unproductive Problems (SHOW
-                  UP, get it?) Act of 2023 passed the Republican-majority US
-                  House of Representatives on a close-to-party-line vote l...
+                  
                 </p>
               </div>
             </div>
           </article>
-        </section>
+        </section> -->
       </div>
     </div>
   </main>
@@ -46,7 +39,7 @@
   background-color: #fdfdfd;
   z-index: 10;
   padding-left: 25px;
-  width: 1000px;
+  width: 920px;
   margin: auto;
 }
 
