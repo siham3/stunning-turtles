@@ -2,9 +2,9 @@
   <main class="main-container">
     <div class="content-wrapper">
       <div class="columns-container">
-        <section class="left-column">
-            <iframe id="vp1m7pLd" title="Video Player" width="432" height="243" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1713045248&f=m7pLdVkuefpFwIC6FXRflw&d=0&m=p&r=360p+720p&volume=100&start_res=720p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=" allowfullscreen></iframe>
-        </section>
+        <iframe id="vp1m7pLd" title="Video Player" width="640" height="360" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1713150013&f=m7pLdVkuefpFwIC6FXRflw&d=0&m=p&r=360p+720p&volume=100&start_res=720p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=" allowfullscreen></iframe>
+        <!-- <section class="left-column">
+        </section> -->
         <!-- <section class="right-column">
           <article class="article-container">
             <div class="article-content">
