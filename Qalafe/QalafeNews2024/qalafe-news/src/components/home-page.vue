@@ -1,6 +1,6 @@
 <template>
   <main class="main-container">
-    <div class="content-wrapper">
+    <div class="content-wrapperr">
       <div class="columns-container">
         <iframe id="vp1m7pLd" title="Video Player" width="640" height="360" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1713150013&f=m7pLdVkuefpFwIC6FXRflw&d=0&m=p&r=360p+720p&volume=100&start_res=720p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=" allowfullscreen></iframe>
         <!-- <section class="left-column">
@@ -49,13 +49,13 @@
   }
 }
 
-.content-wrapper {
+.content-wrapperr {
   display: flex;
   gap: 20px;
 }
 
 @media (max-width: 991px) {
-  .content-wrapper {
+  .content-wrapperr {
     flex-direction: column;
     align-items: stretch;
     gap: 0;

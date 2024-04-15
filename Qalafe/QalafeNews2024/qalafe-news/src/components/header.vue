@@ -61,6 +61,7 @@
 
 .navigation-menu {
   display: flex;
+  
   justify-content: space-between;
   align-items: center;
   margin-top: 52px;
