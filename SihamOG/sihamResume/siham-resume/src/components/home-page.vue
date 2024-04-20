@@ -89,12 +89,19 @@ a {
   font-size: 70px;
   text-decoration: none;
   font-weight: 800;
-  margin: 3%;
+  margin: 2%;
+}
+
+nav{
+  position: absolute;
+  text-indent: 490px;
+  line-height: 225px;
 }
 
 .title-items{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap; */
+  position: relative;
 }
 </style>
