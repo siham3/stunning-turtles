@@ -5,13 +5,12 @@
 <template>
   <div class="title-items">
     <nav>
-      <a href="">about</a>
-      <a href="">projects</a>
-      <a href="">art</a>
+      <a href="/About">about</a>
+      <a href="/">projects</a>
+      <a href="/About">art</a>
     </nav>
-    <div class="name-title">
-      <div class="firstN">Siham</div>
-      <div class="lastN">Salah</div>
+    <div >
+      <img src="./../assets/SihamSalah.png" alt="Name">
     </div>
   </div>
 </template>
@@ -86,7 +85,6 @@ a:hover {
 a {
   color: #B08484;
   font-family: Cormorant;
-  font-size: 70px;
   text-decoration: none;
   font-weight: 800;
   margin: 2%;
@@ -94,8 +92,38 @@ a {
 
 nav{
   position: absolute;
-  text-indent: 490px;
   line-height: 225px;
+  max-width: 100%;
+  height: auto;
+  font-size: 70px;
+
+  @media (min-width: 1030px) {
+    text-indent: 490px;
+    font-size: 70px;
+  }
+
+  @media (max-width: 1024px) {
+    text-indent: 430px;
+    font-size: 60px;
+  }
+
+  @media (max-width: 769px) {
+    text-indent: 300px;
+    font-size: 50px;
+  }
+
+  @media (max-width: 675px) {
+    text-indent: 250px;
+  }
+
+  @media (max-width: 550px) {
+    text-indent: 200px;
+  }
+
+  @media (max-width: 425px) {
+    text-indent: 0px;
+    position: fixed;
+  }
 }
 
 .title-items{
@@ -103,5 +131,15 @@ nav{
   flex-direction: column;
   flex-wrap: nowrap; */
   position: relative;
+}
+div{
+  justify-content: center;
+}
+img{
+  max-height: max-content;
+  width: 1100px;
+  padding: 0 4%;
+  height: auto;
+  max-width: 100%;
 }
 </style>
