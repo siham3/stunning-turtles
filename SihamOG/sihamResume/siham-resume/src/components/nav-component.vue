@@ -6,7 +6,7 @@
         <nav>
             <a href="/About">about</a>
             <a href="/">projects</a>
-            <a href="/About">art</a>
+            <a href="/">art</a>
         </nav>
     </div>
 </template>
