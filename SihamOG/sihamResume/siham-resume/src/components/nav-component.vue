@@ -4,7 +4,7 @@
             Siham Salah
         </h3>
         <nav>
-            <a href="/About">about</a>
+            <a href="/about">about</a>
             <a href="/">projects</a>
             <a href="/">art</a>
         </nav>
