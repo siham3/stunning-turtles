@@ -1,41 +1,88 @@
 <template>
-    <div class="header">
-        <h3>
-            Siham Salah
-        </h3>
-        <nav>
-            <a href="/about">about</a>
-            <a href="/">projects</a>
-            <a href="/">art</a>
-        </nav>
+    <div class="headers">
+        <div class="left-header">
+            <div id="header-eng-name">
+                siham salah.
+            </div>
+            <nav>
+                <a href="/about">about</a>
+                <a href="/about">experience</a>
+                <a href="/about">project</a>
+                <a href="/about">art</a>
+            </nav>
+        </div>
+        <div class="right-header">
+            <div id="space"></div>
+            <div id="header-arab-name">سهام صلاة</div>
+        </div>
     </div>
 </template>
 <style scoped>
 h3 {
-    color: #2C0E00;
-    padding: 15px 80px 0 50px;
+    color: white;
+    padding: 3%;
     font-family: Cormorant;
     font-weight: 800;
-    margin: 0;
+    font-size: 28px;
+}
+
+#header-eng-name{
+    width: 141px;
+}
+
+#header-arab-name{
+    width: 140px;
+}
+
+#space {
+    width: 200px;
+    @media (max-width: 800px) {
+        width: 50px;
+  }
 }
 
 a:hover {
-  color: #FFB890;
+    color: #F9CE7A;
 }
 
-a {
-  color: #B08484;
-  font-family: Cormorant;
-  text-decoration: none;
-  font-weight: 800;
-  margin: 2%;
-  padding: 3%;
+nav {
+    font-family: Cormorant;
+    font-weight: 800;
+    width: 320px;
 }
 
-.header{
+nav a {
+    padding: 3%;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.left-header, .right-header{
     display: flex;
-    font-size: 40px;
     align-items: center;
-    width:100%;
+    color: white;
+    padding: 3%;
+    font-family: Cormorant;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.left-header{
+    @media (max-width: 640px) {
+        visibility: hidden;
+        width:0px;
     }
+    @media (min-width: 641px) {
+        visibility:visible;
+    }
+}
+
+.headers {
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    justify-content: space-between;
+    padding: 4px 0px 4px 8px;
+}
 </style>

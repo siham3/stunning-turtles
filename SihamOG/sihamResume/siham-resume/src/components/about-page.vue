@@ -13,9 +13,12 @@ import NavComponent from "./nav-component.vue";
 </script>
 
 <style scoped>
-.about {
+/* .about {
     align-items: center;
-}
+    justify-content: center;
+    max-width: 1200px;
+    min-width: 800px;
+} */
 .container {
     background-color: #3E2A51;
     display: flex;
