@@ -2,16 +2,20 @@
     <div class="about">
         <nav-component />
         <div class="container">
-            <div>
+            <div class="space">
             </div>
             <div class="title">
-                <!-- <img src="./../assets/salam.png" alt="salams"> -->
                 <div id="title-text">
                     Software Developer 
                     <span id="and">&</span> 
                     Professional Artist
                 </div>
             </div>
+            <div id="intro-text">
+                Combining years of software development experience with a vibrant artistic sensibility, as a Muslim African-Arab woman, I craft solutions that are not only technically robust but also culturally resonant.
+            </div>
+            <button> say hi! </button>
+
         </div>
     </div>
 </template>
@@ -23,7 +27,7 @@ import NavComponent from "./nav-component.vue";
 .container {
     /* background-color: #3E2A51; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     min-height: 80vh;
     margin: 0 12%;
     flex-direction: column;
@@ -59,5 +63,48 @@ import NavComponent from "./nav-component.vue";
         padding: 30px 20px;
         background-position: left -18px;
     }
+}
+
+.space {
+    height: 300px;
+    @media (max-width: 530px) {
+        height: 180px;
+    }
+}
+
+#intro-text {
+    color: white;
+    text-align: right;
+    font-size: 27px;
+    font-family: Bellefair;
+    padding: 20px;
+    @media (max-width: 530px) {
+        text-align: center;
+    }
+}
+
+button {
+ border: solid;
+ color:#F9CE7A;
+ border-width: 2px;
+ border-color: #F9CE7A;
+ height:50px;
+ width: 125px;
+ background-color: transparent;
+ font-family: Cormorant;
+ font-size: 30px;
+ border-radius: 15%;
+ margin:0 20px;
+
+ @media (max-width: 530px) {
+    height:40px;
+    width: 75px;
+    font-size: 23px;
+    align-self: center;
+    }
+}
+
+button:hover{
+    background: rgba(110, 106, 61, 0.435);
 }
 </style>

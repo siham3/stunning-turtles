@@ -15,7 +15,14 @@
 @font-face {
   font-family: Cormorant;
   src: url(./assets/Cormorant-VariableFont_wght.ttf);
-} 
+}
+
+@font-face {
+  font-family: Bellefair;
+  src: url(./assets/Bellefair-Regular.ttf);
+}
+
+
 
 body {
   margin: 0;
