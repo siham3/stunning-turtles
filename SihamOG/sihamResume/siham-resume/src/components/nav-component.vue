@@ -5,10 +5,10 @@
                 siham salah.
             </div>
             <nav>
-                <a href="/about">about</a>
-                <a href="/about">experience</a>
-                <a href="/about">project</a>
-                <a href="/about">art</a>
+                <a href="#" class="active" v-scroll-to="'#about'">about</a>
+                <a href="#" v-scroll-to="'#experience'">experience</a>
+                <a href="#" v-scroll-to="'#project'">project</a>
+                <a href="#" v-scroll-to="'#art'">art</a>
             </nav>
         </div>
         <div class="right-header">
@@ -17,6 +17,9 @@
         </div>
     </div>
 </template>
+<script setup lang="ts">
+
+</script>
 <style scoped>
 h3 {
     color: white;
@@ -26,19 +29,20 @@ h3 {
     font-size: 28px;
 }
 
-#header-eng-name{
+#header-eng-name {
     width: 141px;
 }
 
-#header-arab-name{
+#header-arab-name {
     width: 140px;
 }
 
 #space {
     width: 200px;
+
     @media (max-width: 800px) {
         width: 50px;
-  }
+    }
 }
 
 a:hover {
@@ -58,31 +62,38 @@ nav a {
     font-size: 22px;
 }
 
-.left-header, .right-header{
+.left-header,
+.right-header {
     display: flex;
     align-items: center;
     color: white;
-    padding: 3%;
+    padding: 2%;
     font-family: Cormorant;
     font-weight: 800;
     font-size: 28px;
 }
 
-.left-header{
+.left-header {
     @media (max-width: 640px) {
         visibility: hidden;
-        width:0px;
+        width: 0px;
     }
+
     @media (min-width: 641px) {
-        visibility:visible;
+        visibility: visible;
     }
+}
+
+.active {
+    color:#F9CE7A;
 }
 
 .headers {
     display: flex;
     align-items: center;
-    max-width: 1500px;
     justify-content: space-between;
     padding: 4px 0px 4px 8px;
+    
+    background-color: rgba(32, 38, 65, 0.8);
 }
 </style>

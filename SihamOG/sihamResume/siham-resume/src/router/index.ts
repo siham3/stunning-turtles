@@ -11,7 +11,7 @@ export const routes = [
   {
     path: "/About",
     name: RouteName.ABOUT,
-    component: () => import("../components/about-page.vue"),
+    component: () => import("../components/title-component.vue"),
   },
   {
     path: "/",
