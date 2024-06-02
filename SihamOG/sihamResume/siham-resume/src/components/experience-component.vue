@@ -23,7 +23,7 @@
                     </div>
                     <div class="career-info">
                         <ul>
-                            <li data-aos="fade-up" v-for="item in props.jobList[index].jobInfo?.description" :key="item">
+                            <li v-for="item in props.jobList[index].jobInfo?.description" :key="item">
                                 {{ item }}
                             </li>
                         </ul>
