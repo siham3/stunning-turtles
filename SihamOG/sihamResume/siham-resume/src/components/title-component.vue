@@ -15,8 +15,8 @@
                     </div>
                 </div>
                 <div class="intro-text">
-                    Combining years of software development experience with a vibrant artistic sensibility, as a Muslim
-                    African-Arab woman, I craft solutions that are not only technically robust but also culturally
+                    Combining years of software development experience with a vibrant artistic sensibility, as a 
+                    Developer and Artist, I craft solutions that are not only technically robust but also culturally
                     resonant.
                 </div>
                 <button data-aos="fade-up" data-aos-duration="400" onclick="location.href='mailto:sihamcp@gmail.com';">
