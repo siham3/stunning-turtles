@@ -61,6 +61,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /* background-color:rgb(40 34 67 / 75%); */
     @media (max-width: 800px) {
         flex-direction: column;
     }

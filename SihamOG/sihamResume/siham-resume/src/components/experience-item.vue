@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div data-aos="fade-up" data-aos-duration="500">
         <div class="section-container">
             <div class="section-title">
                 { experience }

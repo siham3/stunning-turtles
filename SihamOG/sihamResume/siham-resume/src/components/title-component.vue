@@ -134,7 +134,7 @@ button {
     border-width: 2px;
     border-color: #F9CE7A;
     height: 70px;
-    width: 155px;
+    width: 170px;
     background-color: transparent;
     font-family: Cormorant;
     font-size: 30px;
@@ -143,7 +143,7 @@ button {
 
     @media (max-width: 530px) {
         height: 60px;
-        width: 130px;
+        width: 150px;
         font-size: 23px;
         align-self: center;
     }

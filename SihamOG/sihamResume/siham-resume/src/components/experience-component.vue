@@ -60,6 +60,7 @@ const handleItemClick = (id: number) => {
     font-size: 20px;
     text-align: left;
     align-items: center;
+    /* background-color:rgb(40 34 67 / 75%); */
 
     @media (max-width: 425px) {
         align-items: flex-start;
@@ -76,6 +77,7 @@ const handleItemClick = (id: number) => {
 
 .experience-list ul {
     list-style: none;
+    font-size: 23px;
 }
 
 .experience-list li {
