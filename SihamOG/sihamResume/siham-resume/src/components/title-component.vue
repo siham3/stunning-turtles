@@ -36,11 +36,11 @@ import AboutComponent from "./about-component.vue";
 import NavComponent from "./nav-component.vue";
 import ExperienceItem from "./experience-item.vue";
 import { onMounted } from "vue";
-import AOS from "aos";
+import  AOS  from "aos";
 onMounted(() => {
     AOS.init({
         disable: 'mobile',
-        once: 'true'
+        once: true
     });
 })
 </script>
