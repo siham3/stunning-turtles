@@ -143,7 +143,7 @@ button {
 
     @media (max-width: 530px) {
         height: 60px;
-        width: 120px;
+        width: 130px;
         font-size: 23px;
         align-self: center;
     }
