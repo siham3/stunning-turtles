@@ -14,7 +14,7 @@
         <div class="right-header">
             <div class="icons">
                 <div class="div-icon">
-                    <a href="https:www.turtlescanpaint.ca">
+                    <a href="https://www.turtlescanpaint.ca">
                         <img src="./../assets/art.png" alt="icon">
                     </a>
                 </div>
@@ -24,7 +24,7 @@
                     </a>
                 </div>
                 <div class="div-icon">
-                    <a href="https:www.linkedin.com/in/sihamsalah">
+                    <a href="https://www.linkedin.com/in/sihamsalah">
                         <img src="./../assets/linkedin.png" alt="icon">
                     </a>
                 </div>
