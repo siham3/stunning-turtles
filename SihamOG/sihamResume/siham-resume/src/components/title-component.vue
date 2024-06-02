@@ -19,7 +19,9 @@
                     African-Arab woman, I craft solutions that are not only technically robust but also culturally
                     resonant.
                 </div>
-                <button data-aos="fade-up" data-aos-duration="400" v-on="'mailto:sihamcp@gmail.com'"> say hi! </button>
+                <button data-aos="fade-up" data-aos-duration="400" onclick="location.href='mailto:sihamcp@gmail.com';">
+                    <img class="mail" src="./../assets/email.png" alt="icon"> say hi!
+                </button>
             </div>
             <about-component id="about" />
             <experience-item id="experience" />
@@ -36,13 +38,14 @@ import AboutComponent from "./about-component.vue";
 import NavComponent from "./nav-component.vue";
 import ExperienceItem from "./experience-item.vue";
 import { onMounted } from "vue";
-import  AOS  from "aos";
+import AOS from "aos";
 onMounted(() => {
     AOS.init({
         disable: 'mobile',
         once: true
     });
 })
+
 </script>
 
 <style scoped>
@@ -122,12 +125,16 @@ onMounted(() => {
 }
 
 button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     border: solid;
     color: #F9CE7A;
     border-width: 2px;
     border-color: #F9CE7A;
-    height: 50px;
-    width: 125px;
+    height: 70px;
+    width: 155px;
     background-color: transparent;
     font-family: Cormorant;
     font-size: 30px;
@@ -135,8 +142,8 @@ button {
     margin: 0 20px;
 
     @media (max-width: 530px) {
-        height: 40px;
-        width: 75px;
+        height: 60px;
+        width: 110px;
         font-size: 23px;
         align-self: center;
     }
@@ -153,6 +160,10 @@ button {
     opacity: 90%;
     font-size: 20px;
     padding: 3%;
+}
+
+.mail {
+    height: 30px;
 }
 
 button:hover {

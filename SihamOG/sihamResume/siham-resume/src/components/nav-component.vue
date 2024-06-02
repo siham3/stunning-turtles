@@ -46,7 +46,7 @@ h3 {
 }
 
 #header-eng-name {
-    width: 141px;
+    width: 160px;
 }
 
 #header-arab-name {
@@ -59,7 +59,7 @@ h3 {
     width: 200px;
 
     @media (max-width: 800px) {
-        width: 50px;
+        width: 80px;
     }
 }
 
@@ -74,6 +74,9 @@ img {
 .div-icon {
     padding-left: 5px;
     display: block;
+    @media (max-width: 800px) {
+        padding-left: 10px;
+    }
 }
 
 .header-nav:hover {
