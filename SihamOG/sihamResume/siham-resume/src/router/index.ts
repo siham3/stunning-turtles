@@ -4,19 +4,14 @@ export enum RouteName {
   ABOUT = 'About',
   ART = 'Art',
   PROJECTS = 'Project',
-  HOME = 'Home'
+  TITLE = 'title'
 }
 
 export const routes = [
   {
-    path: "/About",
-    name: RouteName.ABOUT,
-    component: () => import("../components/title-component.vue"),
-  },
-  {
     path: "/",
-    name: RouteName.HOME,
-    component: () => import("../components/home-page.vue"),
+    name: RouteName.TITLE,
+    component: () => import("../components/title-component.vue"),
   },
 ]; 
 

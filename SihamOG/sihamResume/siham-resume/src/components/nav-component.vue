@@ -4,15 +4,31 @@
             <div id="header-eng-name">
                 siham salah.
             </div>
-            <nav>
-                <a href="#" class="active" v-scroll-to="'#about'">about</a>
-                <a href="#" v-scroll-to="'#experience'">experience</a>
-                <a href="#" v-scroll-to="'#project'">project</a>
-                <a href="#" v-scroll-to="'#art'">art</a>
+            <nav class="navigation">
+                <a href="#" class="header-nav active" v-scroll-to="'#about'">about</a>
+                <a href="#" class="header-nav" v-scroll-to="'#experience'">experience</a>
+                <!-- <a href="#" class="header-nav" v-scroll-to="'#project'">project</a>
+                <a href="#" class="header-nav" v-scroll-to="'#art'">art</a> -->
             </nav>
         </div>
         <div class="right-header">
-            <div id="space"></div>
+            <div class="icons">
+                <div class="div-icon">
+                    <a href="https:www.turtlescanpaint.ca">
+                        <img src="./../assets/art.png" alt="icon">
+                    </a>
+                </div>
+                <div class="div-icon">
+                    <a href="mailto:sihamcp@gmail.com">
+                        <img class="mail" src="./../assets/email.png" alt="icon">
+                    </a>
+                </div>
+                <div class="div-icon">
+                    <a href="https:www.linkedin.com/in/sihamsalah">
+                        <img src="./../assets/linkedin.png" alt="icon">
+                    </a>
+                </div>
+            </div>
             <div id="header-arab-name">سهام صلاة</div>
         </div>
     </div>
@@ -37,7 +53,9 @@ h3 {
     width: 140px;
 }
 
-#space {
+.icons {
+    display: flex;
+    justify-content: flex-end;
     width: 200px;
 
     @media (max-width: 800px) {
@@ -45,17 +63,31 @@ h3 {
     }
 }
 
-a:hover {
+img {
+    height: 20px;
+}
+
+.mail {
+    height: 20px;
+}
+
+.div-icon {
+    padding-left: 5px;
+    display: block;
+}
+
+.header-nav:hover {
     color: #F9CE7A;
 }
 
 nav {
     font-family: Cormorant;
     font-weight: 800;
-    width: 320px;
+    width: 230px;
+    /* width:320px; */
 }
 
-nav a {
+.navigation a {
     padding: 3%;
     text-decoration: none;
     color: white;
@@ -85,7 +117,7 @@ nav a {
 }
 
 .active {
-    color:#F9CE7A;
+    color: #F9CE7A;
 }
 
 .headers {
@@ -93,7 +125,7 @@ nav a {
     align-items: center;
     justify-content: space-between;
     padding: 4px 0px 4px 8px;
-    
+
     background-color: rgba(32, 38, 65, 0.8);
 }
 </style>

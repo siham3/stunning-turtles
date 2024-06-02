@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:jobs": "vite ./src/components/experience-tiles/__dev__",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },

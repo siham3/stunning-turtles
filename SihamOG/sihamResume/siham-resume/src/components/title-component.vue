@@ -3,7 +3,7 @@
         <div class="header">
             <nav-component />
         </div>
-        <div class="page-content" style="overflow-x: hidden">
+        <div class="page-content">
             <div class="container">
                 <div class="space">
                 </div>
@@ -19,11 +19,11 @@
                     African-Arab woman, I craft solutions that are not only technically robust but also culturally
                     resonant.
                 </div>
-                <button data-aos="fade-up" data-aos-duration="400"> say hi! </button>
+                <button data-aos="fade-up" data-aos-duration="400" v-on="'mailto:sihamcp@gmail.com'"> say hi! </button>
             </div>
             <about-component id="about" />
-            <experience-component id="experience"/>
-            <art-component id="art" />
+            <experience-item id="experience" />
+            <!-- <art-component id="art" /> -->
         </div>
         <div class="footer">
             Built and designed by Siham Salah <br>
@@ -33,15 +33,14 @@
 </template>
 <script setup lang="ts">
 import AboutComponent from "./about-component.vue";
-import ArtComponent from "./art-component.vue";
-import ExperienceComponent from "./experience-component.vue";
 import NavComponent from "./nav-component.vue";
+import ExperienceItem from "./experience-item.vue";
 import { onMounted } from "vue";
 import AOS from "aos";
 onMounted(() => {
     AOS.init({
         disable: 'mobile',
-        once:'true'
+        once: 'true'
     });
 })
 </script>
@@ -150,7 +149,7 @@ button {
 
 .footer {
     font-family: Cormorant;
-    color:#FFFFFF;
+    color: #FFFFFF;
     opacity: 90%;
     font-size: 20px;
     padding: 3%;

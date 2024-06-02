@@ -1,15 +1,15 @@
 <template>
-    <div class="experience">
+    <div data-aos="fade-up" class="experience">
         <div class="experience-content">
-            <div class="experience-list">
+            <div data-aos="fade-up" class="experience-list">
                 <div v-for="jobs in jobList" :key="jobs.id">
-                    <div @click="handleItemClick(jobs.id)">
+                    <div @click="handleItemClick(jobs?.id)">
                         <ul>
                             <li :class="{ active: jobs?.id == (index + 1) }">
-                            {{ jobs.jobTitle }}
+                                {{ jobs?.jobTitle }}
                                 <br>
-                                <span>
-                                    {{ jobs.jobName }}
+                                <span class="yellow">
+                                    {{ jobs?.jobName }}
                                 </span>
                             </li>
                         </ul>
@@ -23,7 +23,7 @@
                     </div>
                     <div class="career-info">
                         <ul>
-                            <li data-aos="fade-up" v-for="item in props.jobList[index].jobInfo?.description" :key="item">
+                            <li v-for="item in props.jobList[index].jobInfo?.description" :key="item">
                                 {{ item }}
                             </li>
                         </ul>
@@ -34,48 +34,42 @@
     </div>
 </template>
 <script setup lang="ts">
-import { type JobExperience } from "./types"
-import { ref } from "vue";
+import { JobExperience } from "./types"
+import { ref } from "vue"
+
 const props = defineProps({
 
     jobList: {
         type: Array<JobExperience>,
         required: true,
-    },
+    }
 });
 
 var index = ref(0);
 
 const handleItemClick = (id: number) => {
-    index.value = id - 1;
+    index.value = (id - 1);
 }
+
+const emit = defineEmits({
+    actionClick: (id: number) => !!id,
+});
 
 </script>
 
 <style scoped>
 .experience-content {
     display: flex;
-    color: white;
+    color: black;
     font-family: Cormorant;
     font-size: 20px;
     text-align: left;
     align-items: center;
-
-    @media (max-width: 425px) {
-        align-items: flex-start;
-        justify-content: center;
-        flex-direction: column;
-    }
-}
-
-.experience-list{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
 .experience-list ul {
     list-style: none;
+    display: flex;
 }
 
 .experience-list li {
@@ -91,12 +85,6 @@ const handleItemClick = (id: number) => {
 .experience-description {
     width: 600px;
     padding: 2%;
-    height: 375px;
-
-    @media (max-width: 800px) {
-        height: auto;
-        width: auto;
-}
 }
 
 .career-header {
@@ -118,8 +106,5 @@ const handleItemClick = (id: number) => {
 .active {
     border-right: solid;
     border-color: #F9CE7A;
-    color:#F9CE7A;
-
-    transition: border-width 0.4s linear;
 }
 </style>
