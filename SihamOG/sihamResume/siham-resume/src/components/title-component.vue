@@ -79,8 +79,8 @@ onMounted(() => {
     border-block-color: #F9CE7A;
 
     @media (max-width: 530px) {
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 50px;
+        line-height: 45px;
         background-size: 150px;
         padding: 30px 20px;
         background-position: left -18px;
@@ -88,10 +88,10 @@ onMounted(() => {
 }
 
 .space {
-    height: 300px;
+    height: 400px;
 
     @media (max-width: 530px) {
-        height: 180px;
+        height: 235px;
     }
 }
 
